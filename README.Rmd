@@ -1,0 +1,53 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# MissingCounter
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of MissingCounter is to provide a straightforward way to identify and count missing values across columns in a dataset, grouped by a specified variable. This package can be particularly useful for exploratory data analysis, as it allows users to quickly assess patterns of missing data within groups, making data cleaning and preprocessing more efficient.
+
+## Installation
+
+You can install the development version of MissingCounter using github_install() from devtools as shown below:
+
+1. Install devtools:
+```{r, eval = FALSE}
+install.packages("devtools")
+```
+
+2. Load devtools:
+```{r, eval = FALSE}
+library(devtools)
+```
+
+3. Install this package from github:
+```{r, eval = FALSE}
+install_github("stat545ubc-2024/assignment-b2-ImNWL")
+```
+
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(MissingCounter)
+
+# Count missing values in the airquality dataset by month
+result <- count_all_missing_by_group(airquality, Month)
+print(result)
+```

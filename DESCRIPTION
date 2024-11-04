@@ -1,0 +1,17 @@
+Package: MissingCounter
+Title: Tool for Counting Missing Values by Group in a Data Frame
+Version: 0.1.0
+Authors@R: person("Wenlong", "Nie", email = "nwl@student.ubc.ca", role = c("aut", "cre"))
+Description: The goal of MissingCounter is to provide a straightforward way to identify and count missing values across columns in a dataset, grouped by a specified variable. This package can be particularly useful for exploratory data analysis, as it allows users to quickly assess patterns of missing data within groups, making data cleaning and preprocessing more efficient.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr
+Suggests:
+    devtools,
+    testthat,
+    palmerpenguins,
+    datasets
