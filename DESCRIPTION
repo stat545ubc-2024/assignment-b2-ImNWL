@@ -14,5 +14,6 @@ Suggests:
     devtools,
     testthat (>= 3.0.0),
     palmerpenguins,
-    datasets
+    datasets,
+    tibble
 Config/testthat/edition: 3

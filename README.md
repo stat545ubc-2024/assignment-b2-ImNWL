@@ -15,25 +15,12 @@ more efficient.
 
 ## Installation
 
-You can install the development version of MissingCounter using
-github_install() from devtools as shown below:
-
-1.  Install devtools:
+You can install the development version of MissingCounter from
+[GitHub](https://github.com/) with:
 
 ``` r
-install.packages("devtools")
-```
-
-2.  Load devtools:
-
-``` r
-library(devtools)
-```
-
-3.  Install this package from github:
-
-``` r
-install_github("stat545ubc-2024/assignment-b2-ImNWL")
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2024/assignment-b2-ImNWL")
 ```
 
 ## Example
