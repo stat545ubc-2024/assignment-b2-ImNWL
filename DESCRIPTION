@@ -12,6 +12,7 @@ Imports:
     dplyr
 Suggests:
     devtools,
-    testthat,
+    testthat (>= 3.0.0),
     palmerpenguins,
     datasets
+Config/testthat/edition: 3
